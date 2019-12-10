@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "5f3c00ea-eafc-4173-85bc-8997b7cb4f8a",
+		"name": "Attachments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.attachments.providers.test.cebroker.com/upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer w96mbdxOwhWpOO68Sj8QB7Xe2NqN05JvK26XNOuYeZ7N6iHv5_IbQ07DeASI1D6g3yd_7mkYKX65TofjUeCGAzXKHcQRCWijcZGyCuXvz3c4nXJ-UUT7cv071it7EKsAEN-vad2zlspf9RUCvOId0PVB72QgZgipn1VV86EPHBi57TBrtHEPmS7vGU6SjNrwzeAhRyaHwg9VRwJAtgMkJPfirhs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customCompletionId",
+							"value": "2403",
+							"type": "text"
+						},
+						{
+							"key": "upload",
+							"type": "file",
+							"src": "/C:/Users/FlavioAandres/projects/loadtest/images/1MB.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.attachments.providers.test.cebroker.com/upload",
+					"protocol": "https",
+					"host": [
+						"api",
+						"attachments",
+						"providers",
+						"test",
+						"cebroker",
+						"com"
+					],
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
